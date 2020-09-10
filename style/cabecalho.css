@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+header {
+    display: flex;
+    align-items: center;
+   
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    color: #425196;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    color: #425196;
+    
+}
+
+
+header img {
+    margin-left: 25px;
+}
+
+header hgroup {
+    margin-left: 23%;
+}

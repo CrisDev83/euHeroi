@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+form {
+    width: 500px;
+    margin:auto;
+}
+
+
+form fieldset {
+    margin-top: 20px;
+    border: 0;
+}
+
+form .campo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form .grupoCampo {
+    display: flex;
+}
+
+form input {
+    outline: none;
+    font-size: 12pt;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .9);
+}
+
+form select {
+    outline: none;
+    font-size: 12pt;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .9);
+    appearance: none;
+}
+
+form label {
+    color: #d34157;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+}
+
+form .grupoCampo .campo + .campo {
+    margin-left: 20px;
+
+}
+
+form .grupoCampo .campo + #adiciona {
+    margin-left: 20px;
+
+}
+
+div#adiciona {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#adiciona span {
+    margin-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+    color: #d34157;
+}
+
+div#adiciona button {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+   
+
+
+form div.botao {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+div.botao a.proximo {
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    width: 100px;
+    background-color: #425196;
+    text-decoration: none;
+    border-radius: 20PX;
+}
+
+form a.proximo span {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 11pt;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+   
+}
+
+form a.proximo span img {
+    margin-left: 15px;
+}
+
+div.botao a.anterior {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    width: 100px;
+    background-color: #425196;
+    text-decoration: none;
+    border-radius: 20PX;
+}
+
+form a.anterior span {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 11pt;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+   
+}
+

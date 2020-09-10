@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/cabecalho.css">
+    <link rel="stylesheet" href="/style/empresa.css">
+    <link rel="stylesheet" href="/style/footer.css">
+
+    <title>Cadastro Empresa</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <img src="/imagens/logoH.png" alt="">
+        <hgroup>
+            <h1>Cadastro de parceria</h1>
+            <h2>Dados da empresa</h2>
+        </hgroup>
+    </header>
+
+    <form method="get" action="">
+        <fieldset>
+            <div class="campo">
+                <label for="nnome">Nome da empresa:</label>
+                <input type="text" name="nnome">
+            </div>
+
+            <div class="campo">
+                <label for="ncnpj">CNPJ:</label>
+                <input type="number" name="ncnpj">
+            </div>
+
+            <div class="campo">
+                <label for="nendereco">Endereço:</label>
+                <input type="text" name="nendereco">
+            </div>
+
+            <div class="campo">
+                <label for="nbairro">Bairro:</label>
+                <input type="text" name="nbairro">
+            </div>
+
+            <div class="grupoCampo">
+                <div class="campo">
+                    <label for="nuf">UF:</label>
+                    <select name="nuf" required>
+                        <option value="">Selecione o Estado</option>
+                    </select>
+
+                    <input type="hidden" name="estado">
+                </div>
+                <div class="campo">
+                    <label for="">Cidade:</label>
+                    <select name="ncidade" disabled required>
+                        <option value="">Selecione a Cidade</option>
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="campo">
+                <label for="nfone">Telefone:</label>
+                <input type="number" name="nfone">
+            </div>
+
+            <div class="botao">
+                <a href="/cadastro/dproduto.html" class="proximo">
+                <span>Próximo<img src="/imagens/seta.png" alt=""></span></a>
+            </div>
+        
+        </div>
+
+        </fieldset>
+       
+
+    </form>
+
+    <footer>
+        <hgroup>
+            <div id="logobranco">
+                <img src="/imagens/logoBranco.png" alt="">
+            </div>
+
+            <div id="info-euheroi">
+                <div id="caixa-texto">
+                    <h3><em>euHeroi</em></h3>
+                    <p><em>00.000.000/0000-00<br>Copyright &copy; 2020 <br>Todos os direitos reservados<br>Criado por
+                            euHeroi</em></p>
+                </div>
+            </div>
+
+            <div id="footer-contato">
+
+                <h2>Contatos</h2>
+                <li><img src="/imagens/face.png" alt=""></li>
+                <li><img src="/imagens/zap.png" alt=""></li>
+                <li><img src="/imagens/insta.png" alt=""></li>
+
+            </div>
+            <div id="download">
+                <a href=""><img src="/imagens/download.png" alt=""></a>
+                <span>Download app</span>
+            </div>
+            <div id="topo">
+                <a href=""><img src="/imagens/setatop.png" alt=""></a>
+                <span>Voltar ao topo</span>
+            </div>
+
+            <div id="termos">
+                <ul>
+                    <li><a href="">Termos de Uso</a></li>
+                    <li><a href="">Política de Privacidade</a></li>
+                </ul>
+            </div>
+
+        </hgroup>
+
+    </footer>
+
+    <script src="/script/cadastro.js"></script>
+</body>
+
+</html>

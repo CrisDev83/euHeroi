@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+footer {
+
+    background-color: #425196;
+    height: 150px;
+}
+
+footer h2 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+footer h3 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+
+footer hgroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+footer div#logobranco {
+    position: relative;
+    height: 150px;
+}
+
+footer div#logobranco img {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 75px;
+}
+
+footer div#info-euheroi {
+    position: relative;
+    height: 150px;
+}
+
+footer div#info-euheroi h3 {
+    margin: 0;
+}
+
+footer div#info-euheroi p {
+    font-family: "Roboto", sans-serif;
+    font-size: 9pt;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+footer div#info-euheroi div#caixa-texto {
+    position: absolute;
+    margin-top: 25px;
+    width: 200px;
+    height: 100px;
+}
+
+
+footer div#footer-contato h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+footer div#footer-contato li {
+    margin-right: 5px;
+    display: inline-block;
+    list-style: none;
+    margin-top: 0;
+}
+
+footer div#download {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div#download a {
+    cursor: pointer;
+    margin-top: 55px;
+    margin-left: 25px;
+}
+
+footer div#download span {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 9pt;
+}
+
+footer div#topo {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div#topo a {
+    cursor: pointer;
+    margin-top: 55px;
+    margin-left: 25px;
+}
+
+footer div#topo span {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 9pt;
+}
+
+
+footer div#termos ul {
+    margin-top: 50px;
+  
+}
+
+footer div#termos li {
+   color: white;
+    margin-top: 10px;
+
+}
+
+footer div#termos li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 9pt;
+}
+
+
